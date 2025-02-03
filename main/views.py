@@ -24,6 +24,6 @@ def set_language(request, language):
     return response
 def index(request):
     context={
-        'title':'Javidan Babayev',
+        'title':'interior Designer Portfolio',
     }
     return render(request,'index.html',context)
